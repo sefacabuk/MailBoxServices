@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailBoxServices.Entities", "MailBoxServices.Entities\MailBoxServices.Entities.csproj", "{6875853A-7CA0-4FBD-BEE8-017C0B747261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailBoxServices.DataAccess", "MailBoxServices.DataAccess\MailBoxServices.DataAccess.csproj", "{71444793-34A3-4EE6-9433-0672B46E124F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailBoxServices.Business", "MailBoxServices.Business\MailBoxServices.Business.csproj", "{64BB5678-7643-4A81-BE09-AAB51C86AC11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailBoxServices.API", "MailBoxServices.API\MailBoxServices.API.csproj", "{12084D04-2020-44DA-9B54-46DD7137F69E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6875853A-7CA0-4FBD-BEE8-017C0B747261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6875853A-7CA0-4FBD-BEE8-017C0B747261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6875853A-7CA0-4FBD-BEE8-017C0B747261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6875853A-7CA0-4FBD-BEE8-017C0B747261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71444793-34A3-4EE6-9433-0672B46E124F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71444793-34A3-4EE6-9433-0672B46E124F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71444793-34A3-4EE6-9433-0672B46E124F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71444793-34A3-4EE6-9433-0672B46E124F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64BB5678-7643-4A81-BE09-AAB51C86AC11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64BB5678-7643-4A81-BE09-AAB51C86AC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64BB5678-7643-4A81-BE09-AAB51C86AC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64BB5678-7643-4A81-BE09-AAB51C86AC11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12084D04-2020-44DA-9B54-46DD7137F69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12084D04-2020-44DA-9B54-46DD7137F69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12084D04-2020-44DA-9B54-46DD7137F69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12084D04-2020-44DA-9B54-46DD7137F69E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F5D55EA-D310-44B8-B3ED-0291B9AB833B}
+	EndGlobalSection
+EndGlobal

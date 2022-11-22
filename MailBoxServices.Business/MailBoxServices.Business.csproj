@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MailBoxServices.DataAccess\MailBoxServices.DataAccess.csproj" />
+    <ProjectReference Include="..\MailBoxServices.Entities\MailBoxServices.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
