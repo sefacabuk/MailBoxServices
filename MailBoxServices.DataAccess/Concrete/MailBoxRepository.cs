@@ -15,6 +15,7 @@ namespace MailBoxServices.DataAccess.Concrete
             using (var mailBoxDbContext = new MailBoxDbContext())
             {
                 mailBox.ID = Guid.NewGuid().ToString();
+                mailBox.DATE_TIME = DateTime.Now;
                 mailBoxDbContext.MailBox.Add(mailBox);
                 mailBoxDbContext.SaveChanges();
                 return mailBox;
