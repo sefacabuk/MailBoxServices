@@ -37,7 +37,7 @@ namespace MailBoxServices.DataAccess.Concrete
         {
             using (var mailBoxDbContext = new MailBoxDbContext())
             {
-                return mailBoxDbContext.MailBox.ToList();
+                return mailBoxDbContext.MailBox.OrderByDescending(x => x.DATE_TIME).ThenBy(x => x.DATE_TIME).ToList();
 
             }
         }
